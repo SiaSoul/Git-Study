@@ -8,10 +8,23 @@ git config --global user.email "Email@gmail.com"
 4. cd /k/git - смена папки pwd - просмотр текущего пути
 ---
 5. Клонирование репозитория на свой комп в папку
-git clone git@github.com:SiaSoul/Git-Study.git (скопировано из github Code --> SSH)
+git clone git@github.com:SiaSoul/Git-Study.git (скопировано из github Code --> SSH) --> pass
 ---
 6. Убедимся, что создалась директория с GitHub
 ls
 7. Проврка хостинга, на котором размещен репозиторий
 git remote -v
+
+8. Проверка статуса файлов (нужно ли что закоммитить)
+git status
+
+10. Закоммитить новый файл
+git add filename.txt
+git commit -m "First File lalala"
+
+11. Лог коммитов
+git log
+
+12. Синхронизация локального репозитория с удаленным
+git push --> pass
 
