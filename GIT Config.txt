@@ -1,0 +1,17 @@
+1.Generate SSH key pair
+ssh-keygen -t rsa -C "email@gmail.com"
+2. Send public key to repository owner or upload to your profile
+3. Configure username and email
+git config --global user.name "User name"
+git config --global user.email "Email@gmail.com"
+---
+4. cd /k/git - смена папки pwd - просмотр текущего пути
+---
+5. Клонирование репозитория на свой комп в папку
+git clone git@github.com:SiaSoul/Git-Study.git (скопировано из github Code --> SSH)
+---
+6. Убедимся, что создалась директория с GitHub
+ls
+7. Проврка хостинга, на котором размещен репозиторий
+git remote -v
+
